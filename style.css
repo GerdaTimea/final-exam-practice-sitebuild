@@ -41,20 +41,20 @@ textarea {
 
 
 :root {
-  --primary-color: #ffeedf;
-  --secondary-color: #125434;
+  --beige: #ffeedf;
+  --green: #125434;
 }
 
 body {
   font-family: 'Space Grotesk', sans-serif;
-  background-color: var(--primary-color);
+  background-color: var(--beige);
 }
 
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 36px; 
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -74,4 +74,25 @@ body {
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  border-bottom: 2px solid var(--green);
+  color: var(--green);
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+
 
