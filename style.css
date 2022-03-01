@@ -39,8 +39,15 @@ textarea {
 
 /* CSS Reset End */
 
+
+:root {
+  --primary-color: #ffeedf;
+  --secondary-color: #125434;
+}
+
 body {
   font-family: 'Space Grotesk', sans-serif;
+  background-color: var(--primary-color);
 }
 
 .material-icons {
@@ -67,3 +74,4 @@ body {
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+
