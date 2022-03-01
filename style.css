@@ -175,6 +175,11 @@ button {
   margin: auto;
 }
 
+button:hover {
+  border: 2px solid var(--beige);
+  background-color: var(--green);
+  color: var(--beige);
+}
 
 
 
