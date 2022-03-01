@@ -129,7 +129,7 @@ section {
   justify-content: center;
   align-items: center;
 
-  border: 2px solid var(--green);
+  border: 1px solid var(--green);
   border-radius: 50%;
   background-color: var(--beige);
   color: var(--green);
@@ -137,8 +137,8 @@ section {
 }
 
 h2.title {
-  border-bottom: 1px solid white;
   height: 100px;
+  border-bottom: 2px solid var(--beige);
 
   font-size: 36px;
   font-weight: 400;
