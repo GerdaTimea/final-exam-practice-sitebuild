@@ -99,17 +99,17 @@ header h1 {
 
 main {
   max-width: 1200px;
-  margin: 120px auto 60px;
+  margin: 90px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 60px;
 }
 
 section {
   position: relative;
   width: 400px;
+  margin: 30px;
   padding: 40px 40px 60px;
 
   background-color: var(--green);
@@ -133,6 +133,7 @@ section {
   border-radius: 50%;
   background-color: var(--beige);
   color: var(--green);
+  font-weight: 500;
 }
 
 h2.title {
@@ -171,8 +172,9 @@ button {
 }
 
 .button-text {
-  font-size: 14px;
   margin: auto;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 button:hover {
