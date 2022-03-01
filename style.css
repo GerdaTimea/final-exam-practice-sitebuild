@@ -79,6 +79,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
+
   width: 100%;
   height: 60px;
   display: flex;
@@ -87,12 +89,95 @@ header {
   padding: 10px;
 
   border-bottom: 2px solid var(--green);
+  background-color: var(--beige);
   color: var(--green);
 }
 
 header h1 {
   font-size: 36px;
 }
+
+main {
+  max-width: 1200px;
+  margin: 120px auto 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+section {
+  position: relative;
+  width: 400px;
+  padding: 40px 40px 60px;
+
+  background-color: var(--green);
+  color: var(--beige);
+
+}
+
+.index {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid var(--green);
+  border-radius: 50%;
+  background-color: var(--beige);
+  color: var(--green);
+}
+
+h2.title {
+  border-bottom: 1px solid white;
+  height: 100px;
+
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.sub {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+button {
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+  width: 200px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 2px solid var(--green);
+  background-color: var(--beige);
+  color: var(--green);
+}
+
+.button-text {
+  font-size: 14px;
+  margin: auto;
+}
+
+
+
+
 
 
 
